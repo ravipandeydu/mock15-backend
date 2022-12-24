@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const {userRoutes} = require("./routes/user.route")
-const {ticketRoutes} = require("./routes/Ticket.route")
+const {ticketRoutes} = require("./routes/ticket.route")
 
 const { connection } = require("./config/db");
 
